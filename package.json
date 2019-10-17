@@ -1,0 +1,23 @@
+{
+  "name": "fromscratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/**.js --reporter mocha-junit-reporter --timeout 60000 --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "^77.0.0",
+    "query-string": "^6.8.3",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "mocha-junit-reporter": "^1.23.1",
+    "node-fetch": "^2.6.0"
+  }
+}
