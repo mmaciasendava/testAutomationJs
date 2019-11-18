@@ -7,7 +7,7 @@ class DriverJs{
     constructor(){
         this.driver = new Builder()
         //.withCapabilities({ 'pageLoadStrategy': 'eager' })
-        .forBrowser('chrome')        
+        .forBrowser('chrome')
         .build();
     }
 

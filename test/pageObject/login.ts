@@ -23,7 +23,7 @@ class Login{
     }
     
     open(){
-        return this.driver.get(this.loginUrl);
+        return this.driver.get(this.loginUrl);  
     }
 }
 export { Login };
