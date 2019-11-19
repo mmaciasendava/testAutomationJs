@@ -1,5 +1,8 @@
 pipeline {
-    agent { docker { image 'node' } }
+    agent any
+    environment {
+        PATH+EXTRA='C:\/Program Files (x86)\/Jenkins\/workspace\/MyFirstPipeline'
+    }
     stages {
         stage('INSTALL') {
             steps {   
