@@ -3,16 +3,12 @@ pipeline {
     stages {
         stage('INSTALL') {
             steps {   
-                script {
-                    sh 'npm install'
-                }                             
+                sh label: 'INSTALL', script: 'npm install'
             }
         }
         stage('TESTING'){
-            steps {
-                script {
-                    sh 'npm run test'
-                }                
+            steps {                
+                sh label: 'INSTALL', script: 'npm run test'                            
             }
         }
     }
