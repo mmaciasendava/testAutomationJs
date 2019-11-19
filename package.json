@@ -18,15 +18,14 @@
     "babel-preset-latest": "^6.24.1",
     "jest": "^24.9.0",
     "jest-environment-node": "^23.1.0",
-    "selenium-webdriver":"4.0.0-alpha.1",
+    "selenium-webdriver":"^4.0.0-alpha.5",
     "jest-environment-selenium": "^2.1.2",
     "jest-html-reporters": "^1.2.0"
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.6.0",
     "@types/faker": "^4.1.6",
-    "@types/jest": "^24.0.19",
-    "Faker": "^0.7.2",
+    "@types/jest": "^24.0.19",    
     "chromedriver": "^77.0.0",
     "faker": "^4.1.0",
     "node-fetch": "^2.6.0",
