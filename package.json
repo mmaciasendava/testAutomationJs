@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "jest from scratch",
   "main": "index.js",
+  "repository": "https://github.com/mmaciasendava",
   "scripts": {
     "test": "jest .//test//*.**.ts"
   },
@@ -16,6 +17,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-latest": "^6.24.1",
     "jest": "^24.9.0",
+    "jest-environment-node": "^23.1.0",
+    "selenium-webdriver":"4.0.0-alpha.1",
     "jest-environment-selenium": "^2.1.2",
     "jest-html-reporters": "^1.2.0"
   },
