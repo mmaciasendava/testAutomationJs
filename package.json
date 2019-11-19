@@ -4,7 +4,7 @@
   "description": "jest from scratch",
   "main": "index.js",
   "scripts": {
-    "test": "jest .\test\*.**.ts"
+    "test": "jest .//test//*.**.ts"
   },
   "author": "miguel macias",
   "license": "ISC",
