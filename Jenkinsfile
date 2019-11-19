@@ -1,8 +1,5 @@
 pipeline {
-    agent any
-    environment {
-        PATH+EXTRA='C:\/Program Files (x86)\/Jenkins\/workspace\/MyFirstPipeline'
-    }
+    agent any    
     stages {
         stage('INSTALL') {
             steps {   
