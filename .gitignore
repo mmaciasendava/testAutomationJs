@@ -2,5 +2,5 @@
 node_modules/
 reports/
 package-lock.json
-test-results.xml
-report.html
+*.xml
+*.html
