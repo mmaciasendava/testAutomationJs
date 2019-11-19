@@ -1,5 +1,7 @@
 pipeline {
-    agent { docker { image 'node' } }    
+    agent {
+        docker { image 'node:7-alpine' }
+    } 
     stages {
         stage('INSTALL') {
             steps {   
