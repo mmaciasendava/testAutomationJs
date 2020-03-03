@@ -25,5 +25,10 @@ pipeline {
             }
         }        
     }
-    
+    post{
+        always { 
+            junit allowEmptyResults: true, testResults: 'junit.xml'
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '', reportFiles: 'jest_html_reporters.html', reportName: 'HTML Report', reportTitles: 'Jenkins Report'])
+        }   
+    }
 }
