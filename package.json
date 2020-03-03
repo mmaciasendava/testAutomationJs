@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/mmaciasendava",
   "scripts": {
-    "test": "jest  --reporters=jest-html-reporters --reporters=jest-junit"
+    "test": "jest"
   },
   "author": "miguel macias",
   "license": "ISC",
