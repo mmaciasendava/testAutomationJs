@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('UPGRADE') {
             steps {   
-                sh label: 'UPGRADE', script: 'npm upgrade'
+                sh label: 'UPGRADE', script: 'npm update'
             }
         }
         stage('INSTALL') {
